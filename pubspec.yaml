@@ -1,0 +1,71 @@
+name: fuzzy
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # local storage
+  shared_preferences: 2.2.2
+  # provider
+  provider: ^6.1.1
+  # svg image
+  svg_flutter: ^0.0.1
+  # font
+  google_fonts: ^6.1.0
+  # slider
+  carousel_slider: ^4.2.1
+  # otp layout
+  pinput: ^3.0.1
+  #  dot border
+  dotted_border: ^2.1.0
+  #dot line
+  dotted_line: ^3.2.2
+  # toggle button
+  flutter_switch: ^0.3.2
+  flutter_dash: ^1.0.0
+  #rating
+  flutter_rating_bar: ^4.0.1
+  #percent wise rating display
+  percent_indicator: ^4.2.3
+  #language
+  flutter_localization: ^0.2.0
+  localization: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/gif/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: font/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: font/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: font/poppins/Poppins-SemiBold.ttf
+          weight: 600
+    - family: Optima LT
+      fonts:
+        - asset: font/Optima/Optima LT Bold.ttf
+          weight: 600
+flutter_intl:
+  enabled: true
